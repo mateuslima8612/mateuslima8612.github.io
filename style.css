@@ -4,13 +4,20 @@ body{
 }
 
 nav{
-    display: flex;
+    font-size: 1rem;
+    margin-top: 1rem;
     flex-direction: column;
     border-bottom: 1px black solid;
 }
-
+nav *{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 nav ul{
-    margin-top: 0;
+    margin: auto;
+    width: 1rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -35,4 +42,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     text-decoration: underline;
+}
+.content{
+    font-size: 1.2rem;
 }
