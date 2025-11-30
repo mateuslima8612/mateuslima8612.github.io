@@ -1,53 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mateus de Lima Rodrigues</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateus de Lima Rodrigues | Desenvolvedor Backend</title>
+  <meta name="description" content="Mateus de Lima Rodrigues - Desenvolvedor Backend">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
 </head>
 <body>
-    <nav>
-        <h1 style="margin-bottom: 1rem;">Mateus de Lima</h1>
-        <h2 style="margin-top: 0;">Backend Developer</h2>
-        <ul>
-            <li>
-                <a href="https://github.com/mateuslima8612" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="LinkedIn Icon" width="24" height="24" style="vertical-align: middle;">
-                    Github
-                </a>
-            </li>
-            <!--<li style="font-size: 1.3rem;">/</li>-->
-            <li>
-                <a href="https://www.linkedin.com/in/mateus-de-lima-bb9186112/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" width="24" height="24" style="vertical-align: middle;">
-                    LinkedIn
-                </a>
-            </li>
-            <li>
-        <a href="mailto:mateusrodrigues8612@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="Email Icon" width="24" height="24" style="vertical-align: middle;">
-            Email
-        </a>
-    </li>
-    <li>
-        <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Resume Icon" width="24" height="24" style="vertical-align: middle;">
-            Resume
-        </a>
-    </li>
-        </ul>
-    </nav>
-    <section class="content">
-        <h2>Sobre:</h2>
-        <p>Me chamo Mateus, tenho 23 anos e sou desenvolvedor Backend.</p>
-        <h2>Habilidades:</h2>
-        <ul>
-            <li>Python, Flask, Django</li>
-            <li>SQL, PostgreSQL, MySQL</li>
-            <li>APIs</li>
-            <li>Linux</li>
-        </ul>
+
+  <header class="hero">
+    <h1>Mateus de Lima Rodrigues</h1>
+    <p class="tagline">Desenvolvedor Backend</p>
+    <p class="subtitle"></p>
+  </header>
+
+  <main>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>
+        Me chamo Mateus, tenho 23 anos. Sou desenvolvedor Backend com projetos práticos
+        de APIs, websites e automação.
+      </p>
+
+      <h3>Habilidades</h3>
+      <div class="skills">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Django</span>
+        <span>SQL</span>
+        <span>PostgreSQL</span>
+        <span>MySQL</span>
+        <span>REST APIs</span>
+        <span>Linux</span>
+        <span>Git</span>
+        <span>Docker</span>
+      </div>
     </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="projects">
+
+        <article class="project">
+          <h3>Blog Pessoal</h3>
+          <p>
+            Um blog pessoal sobre tecnologia. Novas postagens são adicionadas através do painel administrativo.</br>
+            O blog pode ser acessado através do link de demonstração (Apenas visualização). <br>
+            Para testes, clone a branch de desenvolvimento no repositório do GitHub.
+          </p>
+          <div class="links">
+            <a href="https://github.com/mateuslima8612/django_blog" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://blog.mateuso.dev" target="_blank" rel="noopener">Website</a>
+          </div>
+          <div class="tags">
+            <span>Python</span>
+            <span>Django</span>
+            <span>PostgreSQL</span>
+            <span>Bootstrap</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>Demonstração de automação</h3>
+          <p>Ferramenta desenvolvida para demonstrar o funcionamento de uma automação que preenche automaticamente
+            um formulário a partir de dados em uma planilha.<br>
+            O intuito é demonstrar que com poucas linhas de códico podemos economizar muito tempo que seria gasto em tarefas repetitivas do cotidiano.<br>
+            As instruções para executar o software estão disponíveis no README do repositório.
+          </p>
+          <div class="links">
+            <a href="https://github.com/mateuslima8612/selenium-autoform/tree/main" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://mateuso.dev/exemplo-automacao/" target="_blank" rel="noopener">Website for testing</a>
+          </div>
+          <div class="tags">
+            <span>Python</span>
+            <span>Selenium</span>
+            <span>Pandas</span>
+            <span>Openpyxl</span>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contato: <a href="mailto:mateusrodrigues8612@gmail.com">mateusrodrigues8612@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/mateuslima8612" target="_blank" rel="noopener">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/mateus-de-lima-bb9186112/" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+    <p class="copy">© 2025 Mateus de Lima Rodrigues</p>
+  </footer>
+
 </body>
 </html>
